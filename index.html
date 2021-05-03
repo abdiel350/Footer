@@ -1,38 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <meta charset="utf-8">
-    <title> Responsive Web Design</title>
-    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 768px)">
-    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px)">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css" media="screen and (min-width: 768px">
+    <link rel="stylesheet" href="css/desktop.css" media="screen and (min-width: 1024px">
+
+    <script src="https://kit.fontawesome.com/9a99de06cc.js" crossorigin="anonymous"></script>
+    <meta content="Desarrollador Front-End | HTML, Css y Flex-Box " name="descripción" />
+    <meta content="Las mentes del olimpo" name="Autor" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="img/favicon.svg">
+    <title>Batatabit</title>
 </head>
 
 <body>
+    <header class="hero">
+        <section class="hero__main container">
+            <div class="hero__img">
+                <img src="img/logo.svg">
+                <p>Batatabit</p>
+            </div>
+            <div class="hero__texts">
+                <h1>La próxima revolución en el intercambio de criptomonedas.</h1>
+                <p>Batatabit te ayuda a navegar entre los diferentes precios y tendencias del mercado.</p>
+            </div>
+        </section>
+        <a href="#" class="hero_button">Conoce Nuestros Planes <span><i class="fas fa-chevron-down"></i></span></a>
+    </header>
+    <main>
+        <section class="seccion-de-ayuda">
+            <div class="centro">
+                <h2>Creamos un producto sin comparacion</h2>
+                <p>Confiable y diseñado para su uso diario.</p>
+            </div>
+            <div class="bloque">
+                <span><img src="img/clock.svg" alt="icono de un reloj"></span>
+                <h3>Tiempo real</h3>
+                <p>Nuestro API toma informacion minuto a minuto sobre las tasas que mas determinan el comporamiento.
+                </p>
+            </div>
+            <div class="bloque">
+                <span><img src="img/eye.svg" alt="icono de un ojo"></span>
+                <h3>No hay tasas escondidas</h3>
+                <p>Ni en la compra o al momento de exit, Batabit siempre te muestra el costo real de lo que estas adquiriendo.</p>
+            </div>
+            <div class="bloque">
+                <span><img src="img/dollar-sign.svg" alt="icono de simbolo de moneda"></span>
+                <h3>Compara monedas</h3>
+                <p>No mas rumores, con Batabit sabras el valor real de cada moneda en el mercado actual.</p>
+            </div>
+            <div class="bloque">
+                <span><img src="img/check-circle.svg" alt="icono de aprovacion"></span>
+                <h3>Informacion confiable</h3>
+                <p>Nuestras fuentes estan 100% verificadas y continuamos auditando su contenido miestras se actualizan.</p>
+            </div>
+        </section>
+    </main>
     <footer>
-       <div class="container-footer">
-           <!-- <div>
-                <a href=""  class="Linkedin">Linkedin</a>
-                <a href=""  class="Crunchbase">Crunchbase</a>
-                <a href=""  class="Hackernews">Hackernews</a>
-            </div>-->
-            <div>
-                <h1  class="Linkedin">Linkedin</h1>
-                <h1  class="Crunchbase">Crunchbase</h1>
-                <h1  class="Hackernews">Hackernews</h1>
-            </div>
+        <div class="container-footer">
+            <!-- <div>
+                 <a href=""  class="Linkedin">Linkedin</a>
+                 <a href=""  class="Crunchbase">Crunchbase</a>
+                 <a href=""  class="Hackernews">Hackernews</a>
+             </div>-->
+             <div>
+                 <h1  class="Linkedin">Linkedin</h1>
+                 <h1  class="Crunchbase">Crunchbase</h1>
+                 <h1  class="Hackernews">Hackernews</h1>
+             </div>
+ 
+             <div>
+                 <img src="img/img.svg" class="imagen" alt="logo">
+                 <h1 class="Batatabit">® Batatabit 2020 </h1>
+             </div>
+         </div> 
+    </footer>
 
-            <div>
-                <img src="img/img.svg" class="imagen" alt="logo">
-                <h1 class="Batatabit">® Batatabit 2020 </h1>
-            </div>
-        </div>    
-</footer>
+    <script src="js/app.js"></script>
 </body>
 
 </html>

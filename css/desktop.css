@@ -1,81 +1,72 @@
+.bloque{
+  display: inline-block;
+  width: 48%;
+  margin-left: 16px;
+}
+
+
+/*Footer */ 
 body {
-    box-sizing: border-box;
-     margin: 0;
-     padding: 0;
-     font-family: sans-serif;
-   }
+box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+
+html{
+ font-size: 62.5%;
+}
+.container-footer {
+ background-color: #F7931A;
+ min-height: 28vh;
+
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: calc(10px + 2vmin);
+ color: white; 
+
+}
+
+.Linkedin{   
+margin-top: 60px;
+margin-left: -155px;    
+margin-bottom: 8px;
+color: white;     
+font-size: 14px;
+}
+
+.Crunchbase{
+margin-bottom: 8px;
+margin-left: -155px;
+color: white;  
+font-size: 14px;  
+}
+
+.Hackernews {
+margin-bottom: 8px;
+margin-left: -155px;   
+color: white;   
+font-size: 14px;
+}
+
+.imagen{
+width: 37.5px;
+height: 24px;
+margin-left: 150px; 
+margin-top: -900px;
+margin-right: 69.5px; 
+
+}
+
+.Batatabit{
+margin-top: -60px;
+margin-left: 180px; 
+color:white;
+font-size: 14px;    
  
-  html{
-     font-size: 62.5%;
-  }
-    .container-footer {
-     background-color: #F7931A;
-     min-height: 100vh;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     font-size: calc(10px + 2vmin);
-     color: white; 
-   
-   }
-   
-   .Linkedin{  
-     position: absolute;
-     width:100px;
-     height: 30px; 
-     left: 300px; 
-     top: 55px;    
-     color: #FFFFFF;  
-     font-family: DM Sans;
-     font-weight: 500;
-     font-size: 20px;
-   }
-   
-   .Crunchbase{
-   position: absolute;
-   width: 100px;
-   height: 24px;
-   left: 300px;
-   top: 110px;  
-   color: #FFFFFF;
-   font-family: DM Sans;
-   font-weight: 500;
-   font-size: 20px;
-   }
-   
-   .Hackernews {
-   position: absolute;
-   width: 100px;
-   height: 24px;
-   left: 300px;
-   top: 160px;
-   font-family: DM Sans;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 20px;
-   color: #FFFFFF;  
-   }
-   
-   .imagen{
-   position: absolute;
-   width: 100px;
-   height: 100px;
-   left: 580px;
-   top: 50px;
-   }
-   
-   .Batatabit{
-     position: absolute;    
-     left: 560px;
-     top: 120px;    
-     font-family: DM Sans;
-     font-style: normal;  
-     font-weight: 100px;
-     font-size: 18px;
-     line-height: 40px;    
-     color: #FFE9D5;
-   }
- 
-  
- 
+}
+
+
+
